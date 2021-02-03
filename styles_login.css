@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#037ADE,#03E5B7);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: white;
+    border-radius: 50px 5px;
+}
+
+.login h1{
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    font-weight: 500;
+}
+
+.login form{
+    padding: 0 40px;
+}
+
+.text_field{
+    color: #666666;
+}
+
+.text_field input{
+    width: 96%;
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px 5px;
+    outline: none;
+    border-color: #bdb6b6;
+    padding-left: 10px;
+    background-color:#f7f4f4;
+}
+
+.text_field :focus{
+    border: 2px solid;
+    border-color: #2691d9;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: black;
+    transition: 0.7s;
+}
+
+.forgot_pass a{
+    float: right;
+    text-decoration: none;
+    color: #666666;
+}
+
+.forgot_pass :hover{
+    text-decoration: underline;
+}
+
+.signup{
+    text-align: center;
+    color: #666666;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #2691d9;
+}
+
+.signup :hover{
+    text-decoration: underline;
+}
